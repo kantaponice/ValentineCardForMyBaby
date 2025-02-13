@@ -2,11 +2,11 @@ body {
     background-color: #ffc3da;
     margin: 0;
     padding: 20px;
-    min-height: 100vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: hidden;
+    overflow: auto;
     position: relative;
     margin: auto;
     align-items: center;
@@ -277,7 +277,7 @@ body {
 .letter.active, .image.active {
     display: block;
     animation: unfoldLove 1.2s ease-in-out forwards;
-    border-radius: 15%;
+      border-radius: 15%;
 }
 
 /* อนิเมชั่นหลักสำหรับการเปิดการ์ด */
@@ -393,7 +393,7 @@ body {
 
     .valentine {
         font-size: 30px;
-        margin: 30px 0;
+        margin: 80px 0 100px;
     }
 
     .envelope-wrapper {
@@ -431,9 +431,9 @@ body {
 
     .letter {
         width: 280px;
-        height: 400px;
+        height: 300px;
         padding: 15px;
-        margin-left: -65px;
+   
     }
 
     .words {
@@ -467,12 +467,17 @@ body {
         width: 35px;
         height: 35px;
     }
+    .reset{
+        margin-top: 15%;
+    }
 }
 
 /* Small Mobile Devices */
 @media screen and (max-width: 480px) {
     .valentine {
         font-size: 24px;
+        margin: 80px 0 100px;
+
     }
 
     #envelope {
@@ -499,9 +504,10 @@ body {
     }
 
     .letter {
-        width: 240px;
-        height: 350px;
-        margin-left: -60px;
+        width: 280px;
+        height: 300px;
+        padding: 15px;
+   
     }
 
     .words {
@@ -515,4 +521,9 @@ body {
     .image-container img {
         width: 100px;
     }
+
+    .reset{
+        margin-top: 20%;
+    }
+
 }
